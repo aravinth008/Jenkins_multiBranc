@@ -1,8 +1,8 @@
-node('master')
+node('built-in')
 
 {
 
-stage('ContinuousDownload_loans') 
+stage('Continuous Download_loans') 
    
 	 {
 	
@@ -10,7 +10,7 @@ stage('ContinuousDownload_loans')
     
 	}
 
-stage('Continuousbuild_loans') 
+stage('Continuous Build_loans') 
    
 	 {
 	
