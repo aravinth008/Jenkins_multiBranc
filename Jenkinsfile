@@ -1,8 +1,8 @@
-node('master')
+node('bulti-in')
 
 {
 
-stage('ContinuousDownload_master') 
+stage('Continuous Download_master') 
    
 	 {
 	
@@ -10,7 +10,7 @@ stage('ContinuousDownload_master')
     
 	}
 
-stage('Continuousbuild_master') 
+stage('Continuous Build_master') 
    
 	 {
 	
